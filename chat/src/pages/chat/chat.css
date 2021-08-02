@@ -1,0 +1,114 @@
+.chat{
+    height: 100vh;
+    display: flex;
+}
+
+.chatMenu{
+    flex: 3;
+    background-color: rgb(25, 26, 30);
+    color: white;
+}
+
+.chatBox{
+    flex: 6;
+}
+
+.chatBoxWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.chatBoxTop{
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 10px;
+    background-color: rgb(233,233,233);
+}
+
+.chatBoxButtom{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+.chatMassageinput{
+    overflow: auto;
+    resize: none;
+    padding: 10px;
+    overflow: auto;
+}
+
+
+.chatSubmitButton{
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #ecebeb;
+    font-weight: 500;
+    color: rgb(63, 63, 63);
+}
+
+.chatMenuWrapper{
+    height: 60%;
+}
+.chatBoxWrapper{
+    height: 80%;
+}
+
+
+
+.chatTop{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(248,0,0);
+    background-image: linear-gradient(to right, rgb(198,0,0), rgb(255,0,0));
+    display: flex;
+    align-items: center;
+}
+
+.chatTopTitle{
+    font-size: 30px;
+}
+
+.chatUser{
+    font-size: 20px;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.chatLogo{
+    height: 70%;
+    width: 15%;
+    padding: 20px;
+}
+
+.chatContactos{
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+hr{
+    border: 0;
+    border-top: 2px solid red;
+  }
+  textarea{
+      padding: 5px;
+    overflow: auto;
+    resize: none;
+    width: 85%;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 20px;
+    color: rgb(107, 107, 107);
+    background-color: rgb(243, 243, 243);
+  }

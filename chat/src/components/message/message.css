@@ -1,0 +1,42 @@
+.message{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.messageTop{
+    display: flex;
+    padding: 10px;
+}
+
+.massageImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.messageText{
+    padding: 10px;
+    border-radius: 0px 10px 10px 10px;
+    background-color: rgb(255,255,255);
+    color: rgb(189,184,184);
+    max-width: 300px;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.messageButton{
+    font-size: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.message.own{
+    align-items: flex-end;
+}
+.message.own .messageText{
+    background-color: rgb(252,237,237);
+    color:rgb(189,184,184);
+    border-radius: 10px 0px 10px 10px;
+}
