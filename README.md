@@ -1,5 +1,4 @@
-# PSHCHAT
-Examen psh full stack 
+# Chat in Real Time
 
 Esos son los usuarios que estan igresados!
 Usuarios:
